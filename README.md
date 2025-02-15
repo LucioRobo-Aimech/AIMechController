@@ -4,7 +4,7 @@
 <p>Date:  2025/01 - 2025/05 </p>
 
 <h2>文件结构</h2>
-```
+```markdown
 AIMechController/
 │
 ├── PythonScript/
