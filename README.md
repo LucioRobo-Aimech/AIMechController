@@ -3,5 +3,20 @@
 <p>Author： Lucio.YipengLi@Outlook.com</p>
 <p>Date:  2025/01 - 2025/05 </p>
 
+<h2>文件结构</h2>
+```
+AIMechController/
+│
+├── PythonScript/
+│   └── OnlyController.py
+│
+└── Scene/
+    └── OnlyController.ttt
+```
+
+<h2> 项目组成 </h2>
+<h3> 1.OnlyController</h3>
+<p>本项目是在CoppeliaSim中测试大象myController所用，将现实外骨骼的关节角度设定在仿真环境中的外骨骼。</p>
+
 
 
