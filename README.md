@@ -11,6 +11,11 @@ AIMechController/
 ├── PythonScript/
 │   └── OnlyController.py
 │
+├── ReadmeSource/
+│   └── Images
+│       ├── ControllerWithCuboid.gif
+│       └── OnlyController.gif
+│
 └── Scene/
     └── OnlyController.ttt
 ```
@@ -18,6 +23,14 @@ AIMechController/
 <h2> 项目组成 </h2>
 <h3> 1.OnlyController</h3>
 <p>本项目是在CoppeliaSim中测试大象myController所用，将现实外骨骼的关节角度设定在仿真环境中的外骨骼。</p>
-
+<p align="center">
+  <img src="ReadmeSource/Images/OnlyController.gif" alt="OnlyController" width = "640" height = "360"/>
+</p>
+<br>
+<h3> 2.ControllerWithCuboid</h3>
+<p>本项目是在CoppeliaSim中测试大象myController所用，将仿真外骨骼的手柄位置实时控制到仿真方块上，实现手柄位置对仿真方块位置的控制。</p>
+<p align="center">
+  <img src="ReadmeSource/Images/ControllerWithCuboid.gif" alt="ControllerWithCuboid" width = "640" height = "360"/>
+</p>
 
 
