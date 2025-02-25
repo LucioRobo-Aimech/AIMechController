@@ -9,14 +9,19 @@
 AIMechController/
 │
 ├── PythonScript/
+│   ├── ControllerWithArm.py
+│   ├── ControllerWithCuboid.py
 │   └── OnlyController.py
 │
 ├── ReadmeSource/
 │   └── Images
+│       ├── ControllerWithArm.gif
 │       ├── ControllerWithCuboid.gif
 │       └── OnlyController.gif
 │
 └── Scene/
+    ├── ControllerWithArm.ttt
+    ├── ControllerWithCuboid.ttt
     └── OnlyController.ttt
 ```
 
@@ -31,6 +36,12 @@ AIMechController/
 <p>本项目是在CoppeliaSim中测试大象myController所用，将仿真外骨骼的手柄位置实时控制到仿真方块上，实现手柄位置对仿真方块位置的控制。</p>
 <p align="center">
   <img src="ReadmeSource/Images/ControllerWithCuboid.gif" alt="ControllerWithCuboid" width = "640" height = "360"/>
+</p>
+<br>
+<h3> 3.ControllerWithArm</h3>
+<p>本项目是在CoppeliaSim中测试大象myController配合机械臂，通过改变机械臂末端target位置，让机械臂逆解到目标位置，实现对应控制。</p>
+<p align="center">
+  <img src="ReadmeSource/Images/ControllerWithArm.gif" alt="ControllerWithCuboid" width = "640" height = "360"/>
 </p>
 
 
